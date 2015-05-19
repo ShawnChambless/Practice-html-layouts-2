@@ -1,0 +1,76 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0; }
+
+.topBoxes {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  margin-top: 40px; }
+  .topBoxes .red {
+    width: 375px;
+    height: 200px;
+    background: #d0021b; }
+  .topBoxes .blue {
+    width: 375px;
+    height: 200px;
+    background: #4a90e2; }
+  .topBoxes .black {
+    width: 375px;
+    height: 200px;
+    background: #444; }
+
+p {
+  padding: 50px;
+  font-family: helvetica, sans-serif;
+  font-size: 2em;
+  color: #333; }
+
+.middleBoxes {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+  margin: 0 30px 20px 30px; }
+  .middleBoxes .red {
+    background: #d0021b;
+    width: 33%; }
+  .middleBoxes .blue {
+    background: #4a90e2;
+    width: 67%; }
+
+.bottomBoxes {
+  height: 200px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px; }
+  .bottomBoxes .blue {
+    background: #4a90e2;
+    width: 80%; }
+  .bottomBoxes .red {
+    background: #d0021b;
+    width: 20%;
+    position: relative; }
+    .bottomBoxes .red .black {
+      height: 100%;
+      background: #444;
+      width: 70%;
+      position: absolute;
+      margin: 0 15%; }
